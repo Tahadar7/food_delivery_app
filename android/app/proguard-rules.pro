@@ -17,3 +17,17 @@
 -dontwarn com.google.android.gms.**
 -dontwarn com.google.firebase.**
 -keep class com.google.** { *; }
+
+
+# === STRIPE SPECIFIC RULES ===
+-keep class com.stripe.android.** { *; }
+-keep class com.stripe.** { *; }
+-dontwarn com.stripe.**
+-keepattributes *Annotation*
+-keepattributes Signature
+-keepattributes InnerClasses
+
+# Keep Stripe Models
+-keep class com.stripe.android.model.** { *; }
+-keep class com.stripe.android.view.** { *; }
+-keep class com.stripe.android.paymentsheet.** { *; }
