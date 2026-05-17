@@ -77,7 +77,7 @@ class _RegisterPageContentState extends State<RegisterPageContent> {
             backgroundColor: Colors.transparent,
             radius: 75.0, 
             child: ClipOval(
-              child: Image.asset('assets/logo.png'),
+              child: Image.asset('assets/logo_new.png'),
             ),
           ),
         ),

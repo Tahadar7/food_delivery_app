@@ -65,17 +65,24 @@ class AdminHomePage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(
-                Icons.admin_panel_settings,
-                size: 100,
-                color: UniversalVariables.orangeColor,
+              Text(
+                "WELCOME, ADMIN!",
+                style: TextStyle(
+                  fontSize: 26,
+                  fontWeight: FontWeight.w900,
+                  color: Theme.of(context).brightness == Brightness.dark
+                      ? Colors.white
+                      : Colors.black87,
+                  letterSpacing: 1.2,
+                ),
               ),
               const SizedBox(height: 20),
-              const Text(
-                "Welcome, Admin!",
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              Image.asset(
+                'assets/logo_new.png',
+                height: 200,
+                fit: BoxFit.contain,
               ),
-              const SizedBox(height: 40),
+              const SizedBox(height: 30),
               _buildAdminButton(
                 context,
                 "Add New Food Item",

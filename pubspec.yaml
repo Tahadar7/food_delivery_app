@@ -91,6 +91,7 @@ flutter:
       - assets/pizza.jpg
       - assets/french_fries.jfif
       - assets/cdn_icons.png
+      - assets/logo_new.png
   #   - images/a_dot_ham.jpeg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

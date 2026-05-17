@@ -12,8 +12,14 @@
 .pub-cache/
 .pub/
 /build/
+!/build/app/outputs/flutter-apk/*.apk
 
-# Sensitive Files (CRITICAL for your Stripe/Firebase setup)
+# Android/iOS build folders
+android/build/
+android/.gradle/
+ios/build/
+
+# Sensitive Files (CRITICAL)
 .env
 .env*
 android/app/google-services.json
@@ -21,6 +27,11 @@ ios/Runner/GoogleService-Info.plist
 *.jks
 *.keystore
 android/key.properties
+
+# Heap dumps & profiling (prevents repo bloat)
+*.hprof
+*.profraw
+*.trace
 
 # Log files
 *.log

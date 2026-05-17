@@ -215,7 +215,7 @@ class _HomePageContentState extends State<HomePageContent> {
                 ),
               ),
               currentAccountPicture: CircleAvatar(
-                backgroundImage: AssetImage("assets/breakfast.webp"),
+                backgroundImage: AssetImage("assets/logo_new.png"),
               ),
             ),
             decoration: BoxDecoration(

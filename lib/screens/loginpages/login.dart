@@ -82,7 +82,7 @@ class _LoginPageContentState extends State<LoginPageContent> {
           child: CircleAvatar(
             backgroundColor: Colors.transparent,
             radius: 100.0,
-            child: ClipOval(child: Image.asset('assets/logo.png')),
+            child: ClipOval(child: Image.asset('assets/logo_new.png')),
           ),
         ),
         SizedBox(height: 20.0),

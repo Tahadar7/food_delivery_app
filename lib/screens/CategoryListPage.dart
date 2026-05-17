@@ -86,9 +86,12 @@ class _CategoryListPageState extends State<CategoryListPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Text(
+                      Text(
                         "Available Choices",
-                        style: TextStyle(color: Colors.black45, fontSize: 16),
+                        style: TextStyle(
+                          color: Theme.of(context).textTheme.bodySmall?.color,
+                          fontSize: 16,
+                        ),
                       ),
                       Icon(
                         Icons.filter_list,
