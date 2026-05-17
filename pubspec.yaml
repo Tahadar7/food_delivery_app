@@ -44,6 +44,7 @@ dependencies:
   provider: ^6.1.5+1
   carousel_slider: ^5.0.0
   email_validator: ^3.0.0
+  youtube_api: ^1.0.4
 
 dependency_overrides:
   http: ^1.2.2 
