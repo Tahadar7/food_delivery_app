@@ -115,7 +115,7 @@ class _CartPageContentState extends State<CartPageContent> {
             children: [
               Text("Total :", style: TextStyle(fontSize: 22.0)),
               Text(
-                "₹${cartPageBloc.totalPrice}",
+                "Rs.${cartPageBloc.totalPrice}",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: UniversalVariables.orangeColor,

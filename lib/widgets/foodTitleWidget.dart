@@ -99,7 +99,7 @@ class FoodTitleWidget extends StatelessWidget {
                     ),
                     const SizedBox(height: 5),
                     Text(
-                      "₹${fooddata.price}",
+                      "Rs.${fooddata.price}",
                       style: const TextStyle(
                         fontSize: 16.0,
                         fontWeight: FontWeight.bold,

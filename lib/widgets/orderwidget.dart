@@ -39,7 +39,7 @@ class _OrderWidgetState extends State<OrderWidget> {
                 backgroundImage: AssetImage("assets/cdn_icons.png"),
               ),
               trailing: Text(
-                "₹${widget.request.total}",
+                "Rs.${widget.request.total}",
                 style: TextStyle(
                   color: UniversalVariables.orangeColor,
                   fontSize: 20.0,

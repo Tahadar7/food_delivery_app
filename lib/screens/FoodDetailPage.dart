@@ -126,7 +126,7 @@ class _FoodDetailPageContentState extends State<FoodDetailPageContent> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "₹${widget.fooddata.price}",
+                "Rs.${widget.fooddata.price}",
                 style: TextStyle(
                   fontSize: 25.0,
                   fontWeight: FontWeight.bold,

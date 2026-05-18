@@ -64,7 +64,7 @@ class _CartItemsState extends State<CartItems> {
               style: TextStyle(color: Colors.black54, fontSize: 14),
             ),
             Text(
-              "Subtotal: ₹$subTotal",
+              "Subtotal: Rs.$subTotal",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: UniversalVariables.orangeColor,
