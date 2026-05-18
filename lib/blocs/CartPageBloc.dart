@@ -16,6 +16,7 @@ class CartPageBloc with ChangeNotifier {
   getDatabaseValue() async {
     await databaseSql.openDatabaseSql();
     List<FoodModel> list = await databaseSql.getData();
+    
 
     foodList = list;
 
