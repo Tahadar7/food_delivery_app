@@ -1,4 +1,3 @@
-```markdown
 # Quick-Bite 🍔🎬
 A modern, collaborative Food Delivery application built with Flutter using **Clean Architecture principles**, **BLoC State Management**, and integrated background services. This project was developed following professional agile methodologies with strict git feature-branch tracking.
 
@@ -91,11 +90,5 @@ flutter pub get
 4. Configure local hardware/emulators and deploy:
 ```bash
 flutter run
-
-```
-
-
-
-```
 
 ```
